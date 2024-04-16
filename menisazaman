@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Location: Your Location</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Intro</h2>
+            <p>Who you are</p>
+            <p>Where you are located</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Description showing your passion for web development and willingness to work with others.</p>
+            <p>One or two sentences about your other interests outside of web development.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="Your LinkedIn Profile URL">LinkedIn</a></li>
+                <li><a href="Your GitHub Profile URL">GitHub</a></li>
+                <!-- You can add an optional email link if you want -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+/* Reset CSS */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Semantic Containers */
+header, main, section, footer {
+    margin: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Content Styling */
+main {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Links Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
